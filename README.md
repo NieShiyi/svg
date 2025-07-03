@@ -91,3 +91,6 @@ https://www.ruanyifeng.com/blog/2018/08/svg.html
 https://developer.mozilla.org/zh-CN/docs/Web/SVG
 https://github.com/brucewar/svg-tutorial/tree/master
 https://jenkov.com/tutorials/svg/index.html
+https://svg-tutorial.com/svg/basic-shapes
+https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html
+https://inkscape.org/doc/tutorials/basic/tutorial-basic.html

@@ -145,7 +145,7 @@ const Basic = () => {
         </rect>
       </svg>
 
-      {/* 控制动画: 如果需要变形 */}
+      {/* <animateTransform>标签：控制动画: 如果需要变形 */}
       <svg width="500px" height="500px">
         <rect x="250" y="250" width="50" height="50" fill="#4bc0c8">
           <animateTransform
