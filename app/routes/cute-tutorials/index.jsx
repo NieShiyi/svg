@@ -4,9 +4,11 @@
  */
 
 import RedLantern from "../../examples/RedLantern";
+import ChristmasTree from "../../examples/ChristmasTree";
 
 const cuteTutorials = () => {
-  return <RedLantern />;
+  // return <RedLantern />;
+  return <ChristmasTree />;
 };
 
 export default cuteTutorials;

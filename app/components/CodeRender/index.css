@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+  background-color: #fafafa;
+  padding: 2rem 4rem;
+}
+.copy {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.copy:hover {
+  background: #f0f0f0;
+}
+.copy:active {
+  background-color: #e45649;
+  color: #fff;
+}
