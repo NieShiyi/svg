@@ -59,6 +59,10 @@
 
 ![图片3]()
 
+## 小demo
+查看地址： __/app/examples/ChristmasTree/index.jsx__
+[[圣诞树]](../app/examples/ChristmasTree/index.jsx)
+
 ## 那么 viewBox 的作用呢
 
 **缩放（Zooming）:** 属性允许 SVG 图形在不同尺寸的容器中进行缩放，而不会失真或扭曲。这使得 SVG 图形在各种屏幕尺寸和分辨率下都能保持清晰显示，具有良好的响应式设计能力。

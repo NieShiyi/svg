@@ -5,10 +5,12 @@
 
 import RedLantern from "../../examples/RedLantern";
 import ChristmasTree from "../../examples/ChristmasTree";
+import GingerBread from "../../examples/GingerBread";
 
 const cuteTutorials = () => {
   // return <RedLantern />;
-  return <ChristmasTree />;
+  // return <ChristmasTree />;
+  return <GingerBread />;
 };
 
 export default cuteTutorials;
