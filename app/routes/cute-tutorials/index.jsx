@@ -6,11 +6,12 @@
 import RedLantern from "../../examples/RedLantern";
 import ChristmasTree from "../../examples/ChristmasTree";
 import GingerBread from "../../examples/GingerBread";
+import House from "../../examples/House";
 
 const cuteTutorials = () => {
   // return <RedLantern />;
   // return <ChristmasTree />;
-  return <GingerBread />;
+  return <House />;
 };
 
 export default cuteTutorials;
