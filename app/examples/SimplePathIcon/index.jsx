@@ -7,11 +7,11 @@ import "./index.css";
 
 const SimplePathIcon = () => {
   const items = [
-    // {
-    //   key: "1",
-    //   label: "Path",
-    //   children: <Markdown text={MdText} />,
-    // },
+    {
+      key: "1",
+      label: "Path",
+      children: <Markdown text={MdText} />,
+    },
     {
       key: "2",
       label: "红心图标",
@@ -36,15 +36,17 @@ const SimplePathIcon = () => {
       label: "箭头图标",
       children: () => {
         return (
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              flexWrap: "wrap",
-            }}
-          >
-            <CodeRender code={code} />
-          </div>
+            <SvgCodeRender sheets={[stylesheet]} layout="flex">
+              <svg width="200" height="200" viewBox="-100 -100 200 200">
+                <path
+                  d="M -45,-45 L 0,0 L 45,-45"
+                  fill="none"
+                  stroke-width="70"
+                  stroke="red"
+                  stroke-linecap="round"
+                ></path>
+              </svg>
+            </SvgCodeRender>
         );
       },
     },
