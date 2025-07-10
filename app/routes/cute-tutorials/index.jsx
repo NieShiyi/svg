@@ -2,18 +2,26 @@
  * 根据一个容易上手的教程绘制每一节课的内容，都是有趣可爱的图形呢，very funny！！！
  * https://svg-tutorial.com/
  */
-
-import RedLantern from "../../examples/RedLantern";
-import ChristmasTree from "../../examples/ChristmasTree";
-import GingerBread from "../../examples/GingerBread";
-// import House from "../../examples/House";
-import SimplePathIcon from "../../examples/SimplePathIcon";
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import List from "./List";
+import Detail from "./Detail";
 
 const cuteTutorials = () => {
-  // return <RedLantern />;
-  // return <ChristmasTree />;
-  // return <House />;
-  return <SimplePathIcon />;
+   const [activeComponent, setActiveComponent] = useState(null);
+
+  return (
+    <div style={{ padding: 20}}>
+      {activeComponent ? (
+        <Detail
+          componentName={activeComponent}
+          onBack={() => setActiveComponent(null)}
+        />
+      ) : (
+        <List onSelect={setActiveComponent} />
+      )}
+    </div>
+  );
 };
 
 export default cuteTutorials;
