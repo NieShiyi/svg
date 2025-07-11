@@ -8,17 +8,17 @@ import List from "./List";
 import Detail from "./Detail";
 
 const cuteTutorials = () => {
-   const [activeComponent, setActiveComponent] = useState(null);
+   const [activeItem, setActiveItem] = useState(null);
 
   return (
     <div style={{ padding: 20}}>
-      {activeComponent ? (
+      {activeItem ? (
         <Detail
-          componentName={activeComponent}
-          onBack={() => setActiveComponent(null)}
+          activeItem={activeItem}
+          onBack={() => setActiveItem(null)}
         />
       ) : (
-        <List onSelect={setActiveComponent} />
+        <List onSelect={setActiveItem} />
       )}
     </div>
   );

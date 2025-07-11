@@ -22,8 +22,8 @@ const TableComponent = ({ columns, data, onSelect }) => {
                 className={col.dataIndex === "name" ? "name-highlight" : ""}
               >
                 {col.render
-                  ? col.render(row[col.dataIndex], row)
-                  : row[col.dataIndex]}
+                  ? col.render(row?.[col.dataIndex], row)
+                  : row?.[col.dataIndex]}
               </td>
             ))}
           </tr>

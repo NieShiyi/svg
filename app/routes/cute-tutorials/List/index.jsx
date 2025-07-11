@@ -12,10 +12,7 @@ const List = ({ onSelect }) => {
       title: "操作",
       dataIndex: "operation",
       render: (_text, record) => (
-        <button
-          className="button"
-          onClick={() => onSelect(record.componentName)}
-        >
+        <button className="button" onClick={() => onSelect(record)}>
           查看
         </button>
       ),

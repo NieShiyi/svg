@@ -1,15 +1,10 @@
-import RedLantern from "../../examples/RedLantern";
-import ChristmasTree from "../../examples/ChristmasTree";
-import GingerBread from "../../examples/GingerBread";
-import House from "../../examples/House";
-import SimplePathIcon from "../../examples/SimplePathIcon";
-
+// TODO 数据模拟
 export const ListData = [
   {
     name: "svg 元素",
     desc: "svg元素的简单使用",
     demo: "RedLantern(红灯笼)",
-    doc: "",
+    doc: "/docs/basic.md",
     componentName: "RedLantern",
   },
   {
@@ -41,11 +36,3 @@ export const ListData = [
     componentName: "SimplePathIcon",
   },
 ];
-
-export const ComponentNameMaps = {
-  RedLantern,
-  ChristmasTree,
-  GingerBread,
-  SimplePathIcon,
-  House,
-};
