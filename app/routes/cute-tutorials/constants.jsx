@@ -18,7 +18,7 @@ export const ListData = [
     name: "使用class定义样式",
     desc: "class的使用",
     demo: "GingerBread(姜饼人)",
-    doc: "/docs/clip-path.md",
+    doc: "/docs/class.md",
     componentName: "GingerBread",
   },
   {

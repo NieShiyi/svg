@@ -37,15 +37,16 @@ const SimplePathIcon = () => {
       children: () => {
         return (
             <SvgCodeRender sheets={[stylesheet]} layout="flex">
-              <svg width="200" height="200" viewBox="-100 -100 200 200">
-                <path
-                  d="M -45,-45 L 0,0 L 45,-45"
-                  fill="none"
-                  stroke-width="70"
-                  stroke="red"
-                  stroke-linecap="round"
-                ></path>
-              </svg>
+             <svg width="200" height="200" viewBox="-100 -100 200 200">
+              <path
+                d="M -70 0 L 70 0 L 30 -50 M 70 0 L 30 50"
+                fill="none"
+                stroke="#D1495B"
+                stroke-width="25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
             </SvgCodeRender>
         );
       },

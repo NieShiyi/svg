@@ -29,7 +29,7 @@
  </svg>
 ```
 
-![图片1](../assets/imgs/viewBox01.png)
+![图片1](../assets/imgs/view-box-01.png)
 
 ### svg 标签上添加 viewBox 属性
 
