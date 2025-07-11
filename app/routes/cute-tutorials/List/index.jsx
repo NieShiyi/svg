@@ -1,3 +1,4 @@
+import React, { Suspense } from "react";
 import Table from "../../../components/Table";
 import { ListData } from "../constants";
 import "./index.css";
@@ -18,15 +19,16 @@ const List = ({ onSelect }) => {
       ),
     },
   ];
+
   return (
-    <div>
+    <Suspense fallback={<div>加载中</div>}>
       <h1 className="title">
         <a href="https://svg-tutorial.com/" target="_blank">
-          CuteTutorials{" "}
+          CuteTutorials
         </a>
       </h1>
       <Table columns={columns} data={ListData} />
-    </div>
+    </Suspense>
   );
 };
 
