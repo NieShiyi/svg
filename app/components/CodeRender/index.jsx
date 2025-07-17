@@ -33,6 +33,7 @@ const CopySvgICon = () => {
 };
 
 const CodeRender = ({ code, language = "jsx" }) => {
+  console.log("code", code);
   const handleCopy = async () => {
     await navigator.clipboard.writeText(code);
     setCopied(true);

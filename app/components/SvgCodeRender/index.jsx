@@ -22,7 +22,7 @@ const SvgCodeRender = ({ children, sheets, layout = "flex" }) => {
       }
     };
     run();
-  }, []);
+  }, [children]);
 
   return (
     <div className={layout}>

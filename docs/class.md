@@ -95,10 +95,11 @@
 ### stroke-width
 
 ### stroke-linecap
+定义 线段两端的形状（如开放路径的起点和终点）。
 
 ### stroke-linejoin
 
-和stroke-linecap很像，用于控制路径拐角连接样式
+和stroke-linecap很像，定义两条线段在拐角处（如多边形顶点） 的连接方式
 
 - -miter 默认值，尖角 两条线延长相交，形成尖角；但过尖可能被截断
 - -round 圆角 拐角处呈圆滑连接
@@ -122,5 +123,6 @@
 
 让们来看看有这个属性，转折处是圆滑的，如下：
 ![有stroke-linejoin属性](../assets/imgs/class-stroke-linejoin.png)
+
 没有这个属性就是直接转折，如下：
 ![没有stroke-linejoin属性](../assets/imgs/class-stroke-linejoin-none.png)

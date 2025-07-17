@@ -1,0 +1,17 @@
+.box {
+  fill: #d1495b;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.stripe {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.ribbon {
+  stroke: #b73a3b;
+  stroke-width: 4px;
+  fill: none;
+}
