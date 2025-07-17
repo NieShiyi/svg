@@ -1,0 +1,19 @@
+.bear {
+  background-color: #f5eed7;
+}
+
+.bear .ear {
+  fill: #e5c39c;
+  stroke: white;
+  stroke-width: 5;
+}
+
+.bear .face {
+  fill: white;
+}
+
+.bear .mouth {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}

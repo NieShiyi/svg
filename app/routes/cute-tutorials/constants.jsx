@@ -45,7 +45,7 @@ export const ListData = [
   {
     name: "path 元素（3）",
     desc: "用路径元素绘制三次塞贝尔曲线",
-    demo: "Profile(轮廓)、Gift(礼物)",
+    demo: "Profile、Gift、Bear",
     doc: "/docs/label-path.md",
     componentName: "CubicBezierCurves",
   },
