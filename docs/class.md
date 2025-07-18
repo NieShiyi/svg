@@ -95,6 +95,7 @@
 ### stroke-width
 
 ### stroke-linecap
+
 定义 线段两端的形状（如开放路径的起点和终点）。
 
 ### stroke-linejoin
@@ -126,3 +127,14 @@
 
 没有这个属性就是直接转折，如下：
 ![没有stroke-linejoin属性](../assets/imgs/class-stroke-linejoin-none.png)
+
+### stroke-dasharray
+
+是 SVG 中用于控制线条虚线样式的属性，它定义了描边（stroke）线段和空隙的交替模式。
+
+```
+ stroke-linejoin="30 30"
+```
+- -奇数项是线段长度（实线部分）
+- -偶数项是间隔长度（空白部分）
+如果只写一个值，它会被复制成 [dash, dash] 这种格式，表示实线与间隔长度一致。

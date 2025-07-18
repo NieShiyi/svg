@@ -15,7 +15,7 @@ const TableComponent = ({ columns, data, onSelect }) => {
       </thead>
       <tbody>
         {data.map((row) => (
-          <tr key={row.id}>
+          <tr key={row.id || row.name}>
             {columns.map((col) => (
               <td
                 key={col.dataIndex}

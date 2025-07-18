@@ -89,3 +89,14 @@ controlX controlY 是控制点的坐标（用于弯曲方向）、endX endY 是�
 从当前点直接连接回路径的起点（M 或 m 命令定义的点）
 
 Z 和 z 效果相同；执行后，当前点仍停留在闭合前的最后一个点（非起点）
+
+### A：
+用来绘制一段椭圆弧线（Arc）
+指令： A rx ry rotation large-arc-flag sweep-flag x y
+- -rx	椭圆的 x 轴半径
+- -ry	椭圆的 y 轴半径
+- -rotation	x 轴旋转角度（椭圆的 x 轴相对于水平轴的旋转）
+- -large-arc-flag	选择大角度弧（1 表示大于 180°，0 表示小于 180°）
+- -sweep-flag	选择弧线的绘制方向（1 表示顺时针，0 表示逆时针）
+- -x	弧线终点的 x 坐标
+- -y	弧线终点的 y 坐标

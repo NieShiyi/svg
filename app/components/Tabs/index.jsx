@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import "./index.css";
 
 const Tabs = (props) => {
-  const { items, onChange } = props;
+  const { items, onChange, defaultActiveKey } = props;
   const [key, setKey] = useState();
   const [content, setContent] = useState();
 
@@ -10,9 +10,19 @@ const Tabs = (props) => {
     if (!items.length) {
       console.log("items参数格式错误！");
     }
+    if (defaultActiveKey) {
+      let curContent = items.find(
+        (item) => item.key === defaultActiveKey
+      )?.children;
+      if (curContent) {
+        setKey(defaultActiveKey);
+        setContent(curContent);
+        return;
+      }
+    }
     setKey(items[0]?.key);
     setContent(items[0]?.children);
-  }, [items]);
+  }, [items, defaultActiveKey]);
 
   useEffect(() => {
     onChange?.(key);

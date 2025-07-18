@@ -49,4 +49,11 @@ export const ListData = [
     doc: "/docs/label-path.md",
     componentName: "CubicBezierCurves",
   },
+  {
+    name: "path 元素（4）",
+    desc: "用路径元素绘制弧形",
+    demo: "Moon、Candy Cane、LightBulb",
+    doc: "/docs/label-path.md",
+    componentName: "Arc",
+  },
 ];
