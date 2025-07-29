@@ -56,4 +56,11 @@ export const ListData = [
     doc: "/docs/label-path.md",
     componentName: "Arc",
   },
+  {
+    name: "attr transform：rotate 、 translate",
+    desc: "旋转、平移",
+    demo: "Star",
+    doc: "/docs/attr-transform.md",
+    componentName: "AttrTransform",
+  },
 ];
