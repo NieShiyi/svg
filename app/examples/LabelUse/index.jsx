@@ -19,11 +19,11 @@ const AttrTransform = () => {
         return (
           <SvgCodeRender layout="flex">
             <svg width="200" height="200" viewBox="-15 -15 30 30">
-              <circle r="6" />
+              <circle r="6" fill="pink" />
 
               <line
                 id="ray"
-                stroke="black"
+                stroke="pink"
                 stroke-width="2"
                 stroke-linecap="round"
                 x1="0"
