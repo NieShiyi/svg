@@ -63,4 +63,11 @@ export const ListData = [
     doc: "/docs/attr-transform.md",
     componentName: "AttrTransform",
   },
+  {
+    name: "use 元素",
+    desc: "怎么重复使用已定义的元素",
+    demo: "Sun、Snowflake",
+    doc: "/docs/label-use.md",
+    componentName: "LabelUse",
+  },
 ];
